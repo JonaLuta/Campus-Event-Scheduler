@@ -1,13 +1,6 @@
+# Campus Event Scheduler – Part 2 (D2) Implementation
 
-# Campus Event Scheduler (CES)
+This branch (**d2-implementation**) contains the full implementation for Part 2 (D2).
 
-Skeleton for SWEN-383 Part 1 submission.
-
-## Structure
-- controllers/ — Event & RSVP controllers
-- models/ — User, Event, Venue, RSVP
-- repositories/ — EventRepository, RsvpRepository, UserRepository (Repository Pattern)
-- services/ — NotificationService, SearchService (Service + Strategy)
-- app.js — Entry point (placeholder)
-
-No business logic yet — this is just the skeleton for D3.
+We implemented the Repository, Service, and Strategy patterns, and separated Event and RSVP controllers according to the updated UML class diagrams and sequence diagrams.  
+All business logic (Event creation, RSVP flow, guest list retrieval) is included in this branch.
